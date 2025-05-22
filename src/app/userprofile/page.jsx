@@ -106,6 +106,14 @@ const UserProfile = () => {
                                     <button className="hover:text-white">🩶 132 Likes</button>
                                     <button className="hover:text-white"><FiSend className="inline" /> Share</button>
                                 </div>
+                                <div className="mt-3 flex gap-2">
+
+                                    <input
+                                        type="text"
+                                        placeholder="Add a comment..."
+                                        className="flex-1 bg-[#1c1c1c] border border-gray-700 rounded-md px-3 py-2 text-sm text-gray-300 focus:outline-none"
+                                    />
+                                </div>
                             </div>
                         ))}
                     </div>

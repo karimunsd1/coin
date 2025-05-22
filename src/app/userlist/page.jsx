@@ -81,7 +81,7 @@ export default function UserList() {
                             </tbody>
                         </table>
                     </div>
-                    {/* Footer + Pagination */}
+
                     <div className="flex justify-between items-center text-gray-400 text-xs mt-4">
                         <p>Showing 1 to 10 of 67 entries</p>
                         <div className="flex items-center space-x-2">

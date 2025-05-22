@@ -17,7 +17,7 @@ export default function ErrorPage() {
                 {/* Error image */}
                 <div className="mt-6 md:mt-12">
                     <Image
-                        src="/error.png" // no import needed
+                        src="/error.png"
                         alt="Error"
                         width={200}
                         height={200}
