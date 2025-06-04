@@ -1,6 +1,9 @@
 "use client";
+
 import React from "react";
-import Chart from "react-apexcharts";
+// Replace direct import with dynamic import for Chart
+import dynamic from "next/dynamic";
+const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 import Image from 'next/image';
 
 const cryptoData = [
