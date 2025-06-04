@@ -12,9 +12,9 @@ export default function Home() {
         Coin<span className="text-white">eX</span>
       </div>
 
-      <div className="flex gap-6 mt-4">Add commentMore actions
-        <Image src="/safe.png" alt="Safe" width={60} height={60} />
-        <Image src="/sandglass.png" alt="Sandglass" width={60} height={60} />
+      <div className="flex gap-6 mt-4">
+        <Image src="/Safe.png" alt="Safe" width={60} height={60} />
+        <Image src="/Sandglass.png" alt="Sandglass" width={60} height={60} />
       </div>
       
     </div>
