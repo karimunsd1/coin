@@ -38,9 +38,9 @@ const UserProfile = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 px-6 py-6">
                     {/* Hero Section */}
                     <div className="lg:col-span-4 bg-[#1c1c1c] rounded-lg p-4 flex justify-between items-center overflow-hidden">
-                        <Image src="/buy.png" alt="Buy Crypto" width={120} height={120} className="h-32 w-auto" />
-                        <Image src="/safe.png" alt="Safe Wallet" width={120} height={120} className="h-32 w-auto" />
-                        <Image src="/users.png" alt="User Community" width={120} height={120} className="h-32 w-auto" />
+                        <Image src="/Buy.png" alt="Buy Crypto" width={120} height={120} className="h-32 w-auto" />
+                        <Image src="/Safe.png" alt="Safe Wallet" width={120} height={120} className="h-32 w-auto" />
+                        <Image src="/Users.png" alt="User Community" width={120} height={120} className="h-32 w-auto" />
                     </div>
 
                     {/* Left Sidebar */}

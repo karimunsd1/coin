@@ -72,6 +72,7 @@ export default function Dashboard() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-4">
                 {cryptoData.map((coin, index) => (
                     <div key={index} className="bg-[#1b1b20] p-4 rounded-xl flex items-center gap-4">
+                        {/* Use correct case for sandglass image and use Image from next/image for optimization */}
                         <img src={coin.logo} className="w-10 h-10 object-contain" alt={coin.name} />
                         <div>
                             <p className="text-sm text-gray-400">{coin.name}</p>
@@ -86,7 +87,7 @@ export default function Dashboard() {
                         placeholder="Search BTC/ETH"
                     />
                     <div className="flex justify-center">
-                        <img src="/sandglass.png" alt="icon" className="w-16 h-16 object-contain" />
+                        <img src="/Sandglass.png" alt="icon" className="w-16 h-16 object-contain" />
                     </div>
                 </div>
             </div>
