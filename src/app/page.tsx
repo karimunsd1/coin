@@ -13,7 +13,10 @@ export default function Home() {
       </div>
 
       {/* Icon Row */}
-      
+      <div className="flex gap-6 mt-4">Add commentMore actions
+        <Image src="/safe.png" alt="Safe" width={60} height={60} />
+        <Image src="/sandglass.png" alt="Sandglass" width={60} height={60} />
+      </div>
     </div>
   );
 }
